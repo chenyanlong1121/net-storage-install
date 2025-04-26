@@ -1,0 +1,26 @@
+{
+  "name" : "kafka-connect-rabbitmq",
+  "version" : "1.0.0",
+  "title" : "Kafka Connect RabbitMQ",
+  "description" : "A Kafka Connect connector reading and writing data from RabbitMQ.",
+  "owner" : {
+    "username" : "84codes",
+    "name" : "84codes AB"
+  },
+  "support" : { },
+  "tags" : [ "RabbitMQ", "Messaging" ],
+  "features" : {
+    "supported_encodings" : [ "any" ],
+    "single_message_transforms" : true,
+    "confluent_control_center_integration" : false,
+    "kafka_connect_api" : true
+  },
+  "documentation_url" : "https://github.com/84codes/kafka-connect-rabbitmq",
+  "docker_image" : { },
+  "license" : [ {
+    "name" : "The Apache License, Version 2.0",
+    "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+  } ],
+  "plugin_types" : [ "source", "sink", "transform" ],
+  "release_date" : "2023-07-25"
+}
